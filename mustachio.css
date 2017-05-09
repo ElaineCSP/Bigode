@@ -88,12 +88,12 @@ h2 em:hover {
     border: 4px solid #1a1a1a;
     display: inline-block;
     width: 280px;
-    height: 280px;
+    height: 260px;
 }
 
 .tres-imagens {
     width: 280px;
-    height: 280px;
+    height: 260px;
     filter: grayscale(100%);
     opacity: 0.5;
 
@@ -126,42 +126,48 @@ figcaption{
 }
 
 .texto-rodape {
-    margin-left: 40px;
-    margin-top: 10px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 25px;
+    font-size: 20px;
 }
 
 .link-twitter {
-    position: absolute;
-    right: 400px;
+    margin-left: 800px;
     width: 40px;
     height: 40px;
     border: 3px solid #dbdbdb;
-
+    margin-top: 30px;
 }
 
 .link-facebook{
-    position: absolute;
-    right: 300px;
+    margin-left: 900px;
     border-radius: 1px;
      width: 42px;
     height: 44px;
+    margin-top: 30px;
 }
 
 .link-gmail {
-    position: absolute;
-    right: 200px;
+    margin-left: 1000px;
     width: 40px;
     height: 40px;
+    margin-top: 30px;
     border: 2px solid #dbdbdb;
 
 }
 
 .link-pinterest {
-    position: absolute;
-    right: 100px;
+    margin-top: 30px;
+    margin-left: 1100px;
     width: 40px;
     height: 40px;
     border: 3px solid #dbdbdb;
-
 }
+
+.redes-sociais {
+    position: absolute;
+}
+
+
 
