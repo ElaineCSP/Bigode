@@ -51,11 +51,13 @@ div img {
 .texto {
     font-size: 18px;
     text-align: center; 
+    color: black;
 }
 
 p {
     text-align: center;
     font-size: 18px;
+    color: black;
 }
 
 .bloco-de-rodape {
@@ -107,4 +109,8 @@ p {
 
 .redes-sociais {
     position: absolute;
+}
+
+.texto-pe {
+    color: white;
 }
