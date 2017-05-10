@@ -7,7 +7,17 @@ ul{
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;    
+}
+
+a:hover {
+    color: darkturquoise;
+}
+
 li {
+    text-decoration: none;
     display: inline-block;
     font-size: 15px;
     font-family: Arial Black;
@@ -154,7 +164,6 @@ figcaption{
     height: 40px;
     margin-top: 30px;
     border: 2px solid #dbdbdb;
-
 }
 
 .link-pinterest {
@@ -169,5 +178,6 @@ figcaption{
     position: absolute;
 }
 
-
-
+.link-facebook:hover {
+    filter: invert(80%);
+}
