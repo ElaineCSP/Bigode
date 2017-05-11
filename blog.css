@@ -1,0 +1,160 @@
+.linha-titulo {
+    font-size: 30px;
+    text-align: center;
+    padding: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.9);
+    margin-left: 460px;
+    margin-right: 420px;
+    margin-top: 70px;
+}
+
+.imagem-topo {
+    padding-left: 40%;
+    width: 20%;
+}
+
+ul{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;    
+}
+
+a:hover {
+    color: darkturquoise;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial Black;
+    margin: 0 20px;
+}
+
+li:hover{
+    color: darkturquoise;
+}
+
+div {
+    display: inline;
+    width: 550px;
+
+}
+
+/* meio da pagina */
+
+div img {
+    width: 21%;
+    height: 275px;
+    margin-left: 300px;
+    border: 2px solid black;
+    display: inline;
+}
+
+
+.paragrafo1 {
+    display: inline-block;
+    border: 2px solid black;
+    height: 274px;
+    width: 575px;
+}
+
+.titulo-texto1 {
+    color: black;
+    text-align: center;
+    padding: 40px
+}
+
+.descricao-titulo1 {
+    color: black;    
+    font-size: 15px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+h2 em {
+    color: white;
+    font-family: Courier New, Courier, sans-serif;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 1.0);
+    padding: 23px 27px 22px;
+    margin-left: 211px;
+    display: inline-block;
+}
+
+h2 {
+    margin-top: 38px;
+}
+
+.botao-titulo1 {
+    font-size: 10px;
+    top: 400px;
+}
+
+.botao-titulo1:hover {
+    filter: invert(100%);
+    border: 2px solid black;
+} 
+
+/* rodape */
+
+.bloco-de-rodape {
+    background-color: #000;
+	color: #F2FFFC;
+	width: 100%;
+    height: 100px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.texto-rodape {
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.link-twitter {
+    margin-left: 800px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #dbdbdb;
+    margin-top: 30px;
+}
+
+.link-facebook{
+    margin-left: 900px;
+    border-radius: 1px;
+     width: 42px;
+    height: 44px;
+    margin-top: 30px;
+}
+
+.link-gmail {
+    margin-left: 1000px;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    border: 2px solid #dbdbdb;
+}
+
+.link-pinterest {
+    margin-top: 30px;
+    margin-left: 1100px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #dbdbdb;
+}
+
+.redes-sociais {
+    position: absolute;
+}
+
+.texto-pe {
+    color: white;
+}
