@@ -71,8 +71,20 @@ div img {
     margin-top: 255px;
 }
 
-/* Segunda imagem com bloco de descrição */
+strong {
+    position: relative;
+    top: -219px;
+    margin-left: 123px;
+}
 
+.descricao-titulo1 {    
+    position: absolute;
+    margin-top: -195px;
+    margin-left: 41px;
+    text-align: center;
+}
+
+/* Segunda imagem com bloco de descrição */
 
 .paragrafo2 {
     display: inline-block;
@@ -80,6 +92,23 @@ div img {
     height: 274px;
     width: 575px;
     color: black;
+}
+
+.titulo-texto2 {
+    margin-top: 255px;
+}
+
+strong {
+    position: relative;
+    top: -219px;
+    margin-left: 123px;
+}
+
+.descricao-titulo2 {    
+    position: absolute;
+    margin-top: -195px;
+    margin-left: 41px;
+    text-align: center;
 }
 
 /* Terceira imagem com bloco de descrição */
@@ -90,6 +119,23 @@ div img {
     height: 274px;
     width: 575px;
     color: black;
+}
+
+.titulo-texto3 {
+    margin-top: 255px;
+}
+
+strong {
+    position: relative;
+    top: -219px;
+    margin-left: 123px;
+}
+
+.descricao-titulo3 {    
+    position: absolute;
+    margin-top: -195px;
+    margin-left: 41px;
+    text-align: center;
 }
  
 
