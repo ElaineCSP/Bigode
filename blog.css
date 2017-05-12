@@ -67,6 +67,13 @@ div img {
     color: black;
 }
 
+.titulo-texto1 {
+    margin-top: 255px;
+}
+
+/* Segunda imagem com bloco de descrição */
+
+
 .paragrafo2 {
     display: inline-block;
     border: 2px solid black;
@@ -74,6 +81,8 @@ div img {
     width: 575px;
     color: black;
 }
+
+/* Terceira imagem com bloco de descrição */
 
 .paragrafo3 {
     display: inline-block;
