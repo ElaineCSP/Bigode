@@ -3,7 +3,7 @@
     width: 20%;
 }
 
-/* barra de menu */
+/* barra do menu */
 
 ul{
     text-align: center;
@@ -45,6 +45,14 @@ a:hover {
 }
 
 /* Primeira imagem com bloco de descrição */
+img:hover {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+img {
+    opacity: 0.5;
+}
 
 div {
     display: inline;
