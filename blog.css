@@ -92,24 +92,23 @@ strong {
     text-align: center;
 }
 
-h2 em {
+.botao {
     color: white;
     font-family: Courier New, Courier, sans-serif;
     font-size: 20px;
     background: rgba(0, 0, 0, 0.9);
     padding: 26px 27px 22px;
+    width: 119px;
+    height: 20px;
+     position: absolute;
+    margin-left: 781px;
+    margin-top: -100px;
 }
 
-h2 em:hover {
+.botao:hover {
     background: grey;
 }
 
-.linha-rodape {
-    display: inline-block;
-    margin-top: 65px;
-    margin-left: 240px;
-    font-size: 10px;
-}
 
 /* Segunda imagem com bloco de descrição */
 
