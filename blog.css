@@ -45,12 +45,12 @@ a:hover {
 }
 
 /* Primeira imagem com bloco de descrição */
-img:hover {
+.tres-imagens:hover {
     opacity: 1;
     transition: opacity 1s;
 }
 
-img {
+.tres-imagens {
     opacity: 0.5;
 }
 
@@ -90,6 +90,25 @@ strong {
     margin-top: -195px;
     margin-left: 41px;
     text-align: center;
+}
+
+h2 em {
+    color: white;
+    font-family: Courier New, Courier, sans-serif;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 26px 27px 22px;
+}
+
+h2 em:hover {
+    background: grey;
+}
+
+.linha-rodape {
+    display: inline-block;
+    margin-top: 65px;
+    margin-left: 240px;
+    font-size: 10px;
 }
 
 /* Segunda imagem com bloco de descrição */
