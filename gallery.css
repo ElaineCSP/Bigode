@@ -1,4 +1,32 @@
-.linha-titulo {
+.imagem-topo {
+    padding-left: 40%;
+    width: 20%;
+}
+
+ul{
+    text-align: center;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial Black;
+    margin: 0 20px;
+}
+li:hover{
+    color: darkturquoise;
+}
+
+a {
+    text-decoration: none;
+    color: black;    
+}
+a:hover {
+    color: darkturquoise;
+}
+
+.titulo {
     font-size: 30px;
     text-align: center;
     padding: 24px;
@@ -10,56 +38,6 @@
     margin-top: 70px;
 }
 
-.imagem-topo {
-    padding-left: 40%;
-    width: 20%;
-}
-
-ul{
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: black;    
-}
-
-a:hover {
-    color: darkturquoise;
-}
-
-li {
-    text-decoration: none;
-    display: inline-block;
-    font-size: 15px;
-    font-family: Arial Black;
-    margin: 0 20px;
-}
-
-li:hover{
-    color: darkturquoise;
-}
-
-.borda-tres-imagens {
-    border: 4px solid #1a1a1a;
-    display: inline-block;
-    width: 280px;
-    height: 260px;
-}
-
-.tres-imagens {
-    width: 280px;
-    height: 260px;
-    filter: grayscale(100%);
-    opacity: 0.5;
-
-}
-
-.tres-imagens:hover {
-    opacity: 1;
-    transition: opacity 1s;
-}
-
 .abraco-imagens {
     display: inline-block;
     padding: 20px;
@@ -67,30 +45,22 @@ li:hover{
     margin-left: 16%;
 }
 
-.borda-tres-imagens2 {
+.borda-imagens {
     border: 4px solid #1a1a1a;
     display: inline-block;
     width: 280px;
     height: 260px;
 }
 
-.tres-imagens2 {
+.imagens {
     width: 280px;
     height: 260px;
     filter: grayscale(100%);
     opacity: 0.5;
-
 }
-
-.tres-imagens2:hover {
+.imagens:hover {
     opacity: 1;
     transition: opacity 1s;
-}
-
-.abraco-imagens2 {
-    margin-left: 17.5%;
-    display: inline;
-    margin-right: -205px
 }
 
 .bloco-de-rodape {
@@ -100,7 +70,6 @@ li:hover{
     height: 100px;
     position: relative;
     margin-top: 80px;
-
 }
 
 .texto-rodape {
@@ -108,6 +77,10 @@ li:hover{
     margin-left: 90px;
     margin-top: 25px;
     font-size: 20px;
+}
+
+div p{
+    color: white;
 }
 
 .link-twitter {
@@ -146,10 +119,3 @@ li:hover{
     position: absolute;
 }
 
-.link-facebook:hover {
-    filter: invert(80%);
-}
-
-.texto-pe{
-    color: white;
-}
