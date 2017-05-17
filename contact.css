@@ -3,8 +3,6 @@
     width: 20%;
 }
 
-/* barra de menu */
-
 ul{
     text-align: center;
 }
@@ -16,7 +14,6 @@ li {
     font-family: Arial Black;
     margin: 0 20px;
 }
-
 li:hover{
     color: darkturquoise;
 }
@@ -25,14 +22,11 @@ a {
     text-decoration: none;
     color: black;    
 }
-
 a:hover {
     color: darkturquoise;
 }
 
-/* Botão abaixo da barra de menu */
-
-.linha-titulo {
+.titulo {
     font-size: 30px;
     text-align: center;
     padding: 24px;
@@ -44,54 +38,36 @@ a:hover {
     margin-top: 70px;
 }
 
-/* Input */
-
 form {        
     margin-left: 270px;
     margin-top: 11px;
 }
 
-input {
+.campo {
     border: 2px solid black;
     text-align: center;
     font-size: 15px;
     padding: 15px;
-    width: 800px;
+    width: 670px;
+    height: 34px;
     margin-top: 20px;
-    
+    margin-left: 57px;
 }
 
-.mens {
-    margin-top: 20px;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 15px;
-    padding: 15px;
-    width: 800px;
-    height: 120px;
-
-}
-
-h2 em {
+.botao {
     color: white;
-    font-family: Courier New, Courier, sans-serif;
     font-size: 20px;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 1.0);
     padding: 26px 27px 22px;
-}
-
-h2 em:hover {
-    background: grey;
-}
-
-.linha-rodape {
     display: inline-block;
     margin-top: 65px;
-    margin-left: 635px;
-    font-size: 10px;
+    margin-left: 355px;
 }
-
-/* rodape */
+.botao:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
 
 .bloco-de-rodape {
     background-color: #000;
@@ -109,7 +85,7 @@ h2 em:hover {
     font-size: 20px;
 }
 
-.texto-pe {
+div p {
     color: white;
 }
 
