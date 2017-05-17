@@ -3,8 +3,6 @@
     width: 20%;
 }
 
-/* barra do menu */
-
 ul{
     text-align: center;
 }
@@ -16,7 +14,6 @@ li {
     font-family: Arial Black;
     margin: 0 20px;
 }
-
 li:hover{
     color: darkturquoise;
 }
@@ -25,14 +22,11 @@ a {
     text-decoration: none;
     color: black;    
 }
-
 a:hover {
     color: darkturquoise;
 }
 
-/* Botão abaixo da barra de menu */
-
-.linha-titulo {
+.titulo {
     font-size: 30px;
     text-align: center;
     padding: 24px;
@@ -44,30 +38,28 @@ a:hover {
     margin-top: 70px;
 }
 
-/* Primeira imagem com bloco de descrição */
-.tres-imagens:hover {
-    opacity: 1;
-    transition: opacity 1s;
+div img {
+    width: 21%;
+    height: 275px;
+    margin-left: 252px;
+    margin-top: 29px;
+    border: 2px solid black;
 }
 
-.tres-imagens {
+.imagens {
     opacity: 0.5;
 }
+.imagens:hover {
+    opacity: 1;
+    transition: opacity 1s;
+} 
 
 div {
     display: inline;
     margin-left: -4px;
 }
 
-div img {
-    width: 21%;
-    height: 275px;
-    margin-left: 300px;
-    border: 2px solid black;
-    margin-top: 29px;
-}
-
-.paragrafo1 {
+.bloco {
     display: inline-block;
     border: 2px solid black;
     height: 274px;
@@ -75,17 +67,14 @@ div img {
     color: black;
 }
 
-.titulo-texto1 {
+.subtitulo {
     margin-top: 255px;
-}
-
-strong {
     position: relative;
     top: -219px;
-    margin-left: 123px;
+    margin-left: 123px;   
 }
 
-.descricao-titulo1 {    
+.texto {    
     position: absolute;
     margin-top: -195px;
     margin-left: 41px;
@@ -93,79 +82,22 @@ strong {
 }
 
 .botao {
+    display: inline-block;
+    top: -104px;
     color: white;
-    font-family: Courier New, Courier, sans-serif;
     font-size: 20px;
-    background: rgba(0, 0, 0, 0.9);
-    padding: 26px 27px 22px;
-    width: 119px;
-    height: 20px;
-     position: absolute;
-    margin-left: 781px;
-    margin-top: -100px;
+    background: rgba(0, 0, 0, 1.0);
+    padding: 17px 22px 33px;
+    width: 153px;
+    height: 20px; 
+    position: relative;
+    margin-left: 750px;
 }
-
 .botao:hover {
-    background: grey;
-}
-
-
-/* Segunda imagem com bloco de descrição */
-
-.paragrafo2 {
-    display: inline-block;
+    background: white;
     border: 2px solid black;
-    height: 274px;
-    width: 575px;
     color: black;
 }
-
-.titulo-texto2 {
-    margin-top: 255px;
-}
-
-strong {
-    position: relative;
-    top: -219px;
-    margin-left: 123px;
-}
-
-.descricao-titulo2 {    
-    position: absolute;
-    margin-top: -195px;
-    margin-left: 41px;
-    text-align: center;
-}
-
-/* Terceira imagem com bloco de descrição */
-
-.paragrafo3 {
-    display: inline-block;
-    border: 2px solid black;
-    height: 274px;
-    width: 575px;
-    color: black;
-}
-
-.titulo-texto3 {
-    margin-top: 255px;
-}
-
-strong {
-    position: relative;
-    top: -219px;
-    margin-left: 123px;
-}
-
-.descricao-titulo3 {    
-    position: absolute;
-    margin-top: -195px;
-    margin-left: 41px;
-    text-align: center;
-}
- 
-
-/* rodape */
 
 .bloco-de-rodape {
     background-color: #000;
@@ -183,7 +115,7 @@ strong {
     font-size: 20px;
 }
 
-.texto-pe {
+footer div p {
     color: white;
 }
 
