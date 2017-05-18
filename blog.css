@@ -82,6 +82,7 @@ div {
 }
 
 .botao {
+    cursor: pointer;
     display: inline-block;
     top: -104px;
     color: white;
