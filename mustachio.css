@@ -148,7 +148,19 @@ figcaption{
 .link-twitter { 
     position: absolute;
     margin-left: 800px;
+    background-repeat: no-repeat;
 }
+.link-twitter:hover {
+    background-image: url(https://pbs.twimg.com/profile_images/378800000189281382/d8f54ed3dab2bc49ddac02daf6e30dcf_400x400.jpeg);
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    border: 3px solid #dbdbdb;
+    margin-top: 30px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
 .link-facebook {
     position: absolute;
     margin-left: 904px;
@@ -159,5 +171,5 @@ figcaption{
 }
 .link-pinterest {
     position: absolute;
-    margin-left: 1100px;
+    margin-left: 1100px; 
 }
