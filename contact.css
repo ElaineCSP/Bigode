@@ -5,7 +5,7 @@
 
 ul{
     text-align: center;
-}
+}  
 
 li {
     text-decoration: none;
@@ -39,7 +39,7 @@ a:hover {
 }
 
 form {        
-    margin-left: 270px;
+    text-align: center;
     margin-top: 11px;
 }
  
@@ -60,9 +60,7 @@ form {
     font-size: 20px;
     background: rgba(0, 0, 0, 1.0);
     padding: 26px 27px 22px;
-    display: inline-block;
-    margin-top: 65px;
-    margin-left: 355px;
+    margin: 15px 15px 15px 69px;
 }
 .botao:hover {
     background-color: white;
@@ -72,56 +70,38 @@ form {
 
 .bloco-de-rodape {
     background-color: #000;
-	color: #F2FFFC;
-	width: 100%;
     height: 100px;
-    position: relative;
-    margin-top: 30px;
 }
 
-.texto-rodape {
+.texto-rodape { 
+    color: white;
     position: absolute;
     margin-left: 90px;
     margin-top: 25px;
     font-size: 20px;
 }
-
-div p {
-    color: white;
+ 
+.imagem-redes-sociais {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #dbdbdb;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
-.redes-sociais {
+.link-twitter { 
     position: absolute;
-}
-
-.link-facebook{
-    margin-left: 900px;
-    border-radius: 1px;
-     width: 42px;
-    height: 44px;
-    margin-top: 30px;
-}
-
-.link-gmail {
-    margin-left: 1000px;
-    width: 40px;
-    height: 40px;
-    margin-top: 30px;
-    border: 2px solid #dbdbdb;
-}
-
-.link-pinterest {
-    margin-top: 30px;
-    margin-left: 1100px;
-    width: 40px;
-    height: 40px;
-    border: 3px solid #dbdbdb;
-}
-
-.link-twitter {
     margin-left: 800px;
-    width: 40px;
-    height: 40px;
-    border: 3px solid #dbdbdb;
-    margin-top: 30px;
+}
+.link-facebook {
+    position: absolute;
+    margin-left: 904px;
+}
+.link-gmail {
+    position: absolute;
+    margin-left: 1000px;
+}
+.link-pinterest {
+    position: absolute;
+    margin-left: 1100px;
 }
