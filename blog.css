@@ -38,16 +38,13 @@ a:hover {
     margin-top: 70px;
 }
 
-div img {
+.imagens {
+    opacity: 0.5;
     width: 21%;
     height: 275px;
     margin-left: 252px;
     margin-top: 29px;
     border: 2px solid black;
-}
-
-.imagens {
-    opacity: 0.5;
 }
 .imagens:hover {
     opacity: 1;
@@ -105,7 +102,7 @@ div {
     height: 100px;
 }
 
-.texto-rodape {
+.texto-rodape { 
     color: white;
     position: absolute;
     margin-left: 90px;
@@ -121,19 +118,19 @@ div {
     margin-top: 30px;
 }
 
-.link-twitter {
+.link-twitter { 
     position: absolute;
-    margin-left: 713px;
+    margin-left: 800px;
 }
 .link-facebook {
     position: absolute;
-    margin-left: 811px;
+    margin-left: 904px;
 }
 .link-gmail {
     position: absolute;
-    margin-left: 905px;
+    margin-left: 1000px;
 }
 .link-pinterest {
     position: absolute;
-    margin-left: 998px;
+    margin-left: 1100px;
 }
