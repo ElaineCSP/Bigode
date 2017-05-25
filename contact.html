@@ -19,12 +19,13 @@
         
         <h2 class="titulo"><strong>LET'S KEEP IN TOUCH</strong></h2>
 
-        <form id="cadastro" name="registro" method="post" >
-            <input class="campo" name="nome" placeholder="NAME">
-            <input class="campo" placeholder="ADDRESS">
-            <input class="campo" placeholder="EMAIL">
-            <input class="campo" placeholder="PHONE NUMBER">
-            <input class="campo" placeholder="MENSAGEM">
+        <form name="form" method="post" onsubmit="event.preventDefault(); validacao();" >
+
+            <input class="campo" type="texto" name="nome" placeholder="NAME">
+            <input class="campo" type="texto" name="endereco" placeholder="ADDRESS">
+            <input class="campo" type="texto" name="email" placeholder="EMAIL">
+            <input class="campo" type="texto" name="telefone" placeholder="PHONE NUMBER">
+            <input class="campo" type="texto" name="mensagem" placeholder="MENSAGEM">
             <br>
             <input type="submit" class="botao" name="botao" value="SEND">
         </form>
@@ -43,7 +44,7 @@
                 <a class="imagem-redes-sociais link-pinterest"></a>
             </div>
         </footer> 
-        
+
         <script src="mustachio.js"></script>
 
     </body>
