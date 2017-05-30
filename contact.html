@@ -19,7 +19,7 @@
         
         <h2 class="titulo"><strong>LET'S KEEP IN TOUCH</strong></h2>
 
-        <form name="form" method="post" action="dados.html">
+        <form name="form" method="post" onsubmit="event.preventDefault(); enviar();" >
 
             <input type="texto" name="nome" id="nome" placeholder="NAME">
             <input class="campo" type="texto" name="endereco" placeholder="ADDRESS">
@@ -27,8 +27,18 @@
             <input class="campo" type="texto" name="telefone" placeholder="PHONE NUMBER">
             <input class="campo" type="texto" name="mensagem" placeholder="MENSAGEM">
             <br>
+            
             <input type="submit" class="botao" name="botao" value="SEND">
+
         </form>
+
+        <!--<form name="formfeio">
+            Nome: <input name="nome" >     <br><br>
+            Endereço: <input name="endereco">  <br><br>
+            E-mail: <input name="email" >    <br><br>
+            Telefone: <input name="telefone">  <br><br>
+            Mensagem: <input name="mensagem"> <br><br>
+       </form>-->
 
         <footer class="bloco-de-rodape">
             <div class="texto-rodape">
